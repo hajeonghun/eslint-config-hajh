@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hajh",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "HaJeongHun JavaScript Coding Conventions rules for eslint",
   "main": "index.js",
   "dependencies": {

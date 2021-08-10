@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-hajh",
+  "version": "0.0.1",
+  "description": "HaJeongHun JavaScript Coding Conventions rules for eslint",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^5.10.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hhttps://github.com/hajeonghun/eslint-config-hajh.git"
+  },
+  "author": "Ha Jeong Hun",
+  "license": "MIT"
+}

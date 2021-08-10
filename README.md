@@ -1,5 +1,5 @@
 # Hajh Javascript Coding Conventions
-- eslint-config-hajh는 네이버 자바스크립트 코딩컨벤션을 지원하는 [eslint](http://eslint.org/) 룰 셋입니다.
+- eslint-config-hajh는 자바스크립트 코딩컨벤션을 지원하는 [eslint](http://eslint.org/) 룰 셋입니다.
 - eslint-config-hajh는 [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) 룰셋 기준으로 작성되었습니다.
 
 > ### eslint-config-hajh는 2개의 룰 셋을 제공합니다.

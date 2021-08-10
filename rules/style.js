@@ -30,14 +30,16 @@ module.exports = {
 
 	// this option sets a specific tab width for your code
 	// http://eslint.org/docs/rules/indent
+	// [DUZONE] 탭은 공백문자 2개로 설정한다.
+	  'react/jsx-indent': ['error', 2],
 	// [NAVER] 7.1. 공백은 탭을 사용한다.
-	"indent": ["error",
-		"tab",
-		{
-			"SwitchCase": 1,
-			"MemberExpression": 1
-		}
-	],
+	// "indent": ["error",
+	// 	"tab",
+	// 	{
+	// 		"SwitchCase": 1,
+	// 		"MemberExpression": 1
+	// 	}
+	// ],
 	// indent: ["error", 2, {
 	//   SwitchCase: 1,
 	//   VariableDeclarator: 1,

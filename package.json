@@ -12,5 +12,11 @@
     "url": "hhttps://github.com/hajeonghun/eslint-config-hajh.git"
   },
   "author": "Ha Jeong Hun",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "init"
+  },
+  "keywords": [
+    "eslint"
+  ]
 }

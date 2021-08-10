@@ -1754,24 +1754,25 @@ Hajh 자바스크립트 스타일 가이드는 [Airbnb 자바스크립트 스타
 **[⬆ back to top](#table-of-contents)**
 
 ## Whitespace
-`18.1`, `18. 11 ~ 13` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#whitespace) 와 동일합니다.
+`18. 11 ~ 13` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#whitespace) 와 동일합니다.
 
-- [18.1](#18.1) <a name='18.1'></a>공백은 탭을 사용한다. eslint: [`indent`](http://eslint.org/docs/rules/indent.html)
+- [18.1](#18.1) <a name='18.1'></a>탭은 공백문자 2개로 설정한다. eslint: [`indent`](http://eslint.org/docs/rules/indent.html)  
+[Naver](https://github.com/naver/eslint-config-naver/blob/master/STYLE_GUIDE.md#18.1) 에선 다른 방식으로 사용한다.
 
   ```javascript
   // bad
-  function() {
-  ∙∙∙∙var name;
+  function foo() {
+  ∙∙∙∙let name;
   }
 
   // bad
-  function() {
-  ∙var name;
+  function bar() {
+  ∙let name;
   }
 
   // good
-  function() {
-    var name;
+  function baz() {
+  ∙∙let name;
   }
   ```
 

@@ -285,7 +285,7 @@ Hajh 자바스크립트 스타일 가이드는 [Airbnb 자바스크립트 스타
   const items = [];
   ```
 
-- [4.2](#4.2) <a name='4.2'></a> 아이템을 배열에 추가하는 경우, 직접 배열에 항목을 대입하지 말고 [Array#push](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/push)를 이용한다.
+- [4.2](#4.2) <a name='4.2'></a> 아이템을 배열에 추가하는 경우, 직접 배열에 항목을 대입하지 말고 [Array#push](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/push) 를 이용한다.
 
   ```javascript
   const someStack = [];
@@ -314,7 +314,7 @@ Hajh 자바스크립트 스타일 가이드는 [Airbnb 자바스크립트 스타
   ```
 
 - [4.4](#4.4) <a name='4.4'></a> 순회 가능한 객체(iterable object)를 배열로 변환할 때는 Array.from 대신 spread 연산자(`...`) 를 사용하세요.  
-  [Naver](https://github.com/naver/eslint-config-naver/blob/master/STYLE_GUIDE.md#4.4)에서는 `array-like 오브젝트를 배열로 변환하는 경우`에 대해서 별도로 가이드 하지 않는다.
+  [Naver](https://github.com/naver/eslint-config-naver/blob/master/STYLE_GUIDE.md#4.4) 에서는 `array-like 오브젝트를 배열로 변환하는 경우`에 대해서 별도로 가이드 하지 않는다.
 
   ```javascript
   const foo = document.querySelectorAll('.foo');
@@ -327,7 +327,7 @@ Hajh 자바스크립트 스타일 가이드는 [Airbnb 자바스크립트 스타
   ```
 
 - [4.5](#4.5) <a name='4.5'></a> array-like 객체를 배열로 변환할 때는 Array.from을 사용하세요.  
-  [Naver](https://github.com/naver/eslint-config-naver/blob/master/STYLE_GUIDE.md#Arrays)에서는 `Array.from`에 대해 별도로 가이드 하지 않는다.
+  [Naver](https://github.com/naver/eslint-config-naver/blob/master/STYLE_GUIDE.md#Arrays) 에서는 `Array.from`에 대해 별도로 가이드 하지 않는다.
 
   ```javascript
   const arrLike = { 0: 'foo', 1: 'bar', 2: 'baz', length: 3 };
@@ -340,7 +340,7 @@ Hajh 자바스크립트 스타일 가이드는 [Airbnb 자바스크립트 스타
   ```
 
 - [4.6](#4.6) <a name='4.6'></a>매핑할 때는 전개 구문 `...` 대신 `Array.from`을 사용하세요. 중간 배열 생성을 방지하기 때문입니다.  
-  [Naver](https://github.com/naver/eslint-config-naver/blob/master/STYLE_GUIDE.md#Arrays)에서는 `Array.from`에 대해 별도로 가이드 하지 않는다.
+  [Naver](https://github.com/naver/eslint-config-naver/blob/master/STYLE_GUIDE.md#Arrays) 에서는 `Array.from`에 대해 별도로 가이드 하지 않는다.
 
   ```javascript
   // bad
@@ -350,7 +350,7 @@ Hajh 자바스크립트 스타일 가이드는 [Airbnb 자바스크립트 스타
   const baz = Array.from(foo, bar);
   ```
 
-- [4.7](#4.7) <a name='4.7'></a>[Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#arrays--callback-return)와 다르게 `배열의 메서드 콜백`에 대해서는 별도로 가이드 하지 않는다. eslint: [`array-callback-return`](http://eslint.org/docs/rules/array-callback-return.html)
+- [4.7](#4.7) <a name='4.7'></a>[Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#arrays--callback-return) 와 다르게 `배열의 메서드 콜백`에 대해서는 별도로 가이드 하지 않는다. eslint: [`array-callback-return`](http://eslint.org/docs/rules/array-callback-return.html)
 - [4.8](#4.8) <a name='4.8'></a>배열이 멀티 라인인 경우, 배열의 시작(before)과 끝(after)은 개행한다.
 
   ```javascript

@@ -4,8 +4,15 @@ module.exports = {
 	// [NAVER] 7.8. 괄호 안에 공백을 삽입하지 않는다.(disallowSpacesInsideArrayBrackets, disallowSpacesInsideObjectBrackets, disallowSpacesInsideParentheses)
 	"array-bracket-spacing": ["error", "never"],
 
-	"array-element-newline": ["error", "never"],
-	"array-bracket-newline": ["error", {"multiline": true}],
+	  // enforce line breaks after opening and before closing array brackets
+	  // https://eslint.org/docs/rules/array-bracket-newline
+	  // TODO: enable? semver-major
+	"array-bracket-newline": ["off", "consistent"], // object option alternative: { multiline: true, minItems: 3 }
+
+	  // enforce line breaks between array elements
+	  // https://eslint.org/docs/rules/array-element-newline
+	  // TODO: enable? semver-major
+	"array-element-newline": ["off", { multiline: true, minItems: 3 }],
 
 	// // enforce one true brace style
 	// [NAVER] 2.1 줄의 끝에서 중괄호 시작

@@ -32,7 +32,7 @@ Hajh 자바스크립트 스타일 가이드는 [Airbnb 자바스크립트 스타
 1. [Resources](#resources)
 
 ## Types
-> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#types)와 동일합니다.
+> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#types) 와 동일합니다.
 
 - [1.1](#1.1) <a name='1.1'></a> **Primitives**: primitive type은 그 값을 직접 조작한다.
     + `string`
@@ -68,7 +68,7 @@ Hajh 자바스크립트 스타일 가이드는 [Airbnb 자바스크립트 스타
 **[⬆ back to top](#table-of-contents)**
 
 ## References
-> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#references)와 동일합니다.
+> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#references) 와 동일합니다.
 
 - [2.1](#2.1) <a name='2.1'></a> 변수 선언은 가급적 `const` 를 사용하고, `var` 를 사용하지 않는다. eslint: [`prefer-const`](http://eslint.org/docs/rules/prefer-const.html), [`no-const-assign`](http://eslint.org/docs/rules/no-const-assign.html)
 
@@ -113,8 +113,8 @@ Hajh 자바스크립트 스타일 가이드는 [Airbnb 자바스크립트 스타
 **[⬆ back to top](#table-of-contents)**
 
 ## Objects
-> `3.6` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#objects)와 동일합니다.  
-> (`3.6` 항목은 [Naver](https://github.com/naver/eslint-config-naver/blob/master/STYLE_GUIDE.md#objects)와 동일합니다.)
+> `3.6` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#objects) 와 동일합니다.  
+> (`3.6` 항목은 [Naver](https://github.com/naver/eslint-config-naver/blob/master/STYLE_GUIDE.md#objects) 와 동일합니다.)
 
 - [3.1](#3.1) <a name='3.1'></a> 오브젝트를 작성할 때는, 리터럴 구문을 사용한다.  eslint: [`no-new-object`](http://eslint.org/docs/rules/no-new-object.html)
   ```javascript
@@ -274,7 +274,7 @@ Hajh 자바스크립트 스타일 가이드는 [Airbnb 자바스크립트 스타
 **[⬆ back to top](#table-of-contents)**
 
 ## Arrays
-> `4.7` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#array)와 동일합니다.
+> `4.7` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#array) 와 동일합니다.
 
 - [4.1](#4.1) <a name='4.1'></a> 배열을 작성 할 때는 리터럴 구문을 사용한다. eslint: [`no-array-constructor`](http://eslint.org/docs/rules/no-array-constructor.html)
 
@@ -612,7 +612,7 @@ Hajh 자바스크립트 스타일 가이드는 [Airbnb 자바스크립트 스타
   }
   ```
 
-- [7.4](#7.4) <a name='7.4'></a> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#functions--note-on-blocks)와 다르게 `block 내의 함수선언`에 대해서는 별도로 가이드 하지 않는다.
+- [7.4](#7.4) <a name='7.4'></a> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#functions--note-on-blocks) 와 다르게 `block 내의 함수선언`에 대해서는 별도로 가이드 하지 않는다.
 
 - [7.5](#7.5) <a name='7.5'></a> 절대로 파라미터에 `arguments` 를 지정하지 않는다. 이것은 함수 스코프에 전해지는  `arguments` 오브젝트의 참조를 덮어 버린다.
 

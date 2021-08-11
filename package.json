@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "hhttps://github.com/hajeonghun/eslint-config-hajh.git"
+    "url": "https://github.com/hajeonghun/eslint-config-hajh.git"
   },
   "author": "Ha Jeong Hun",
   "license": "MIT",
